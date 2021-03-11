@@ -1,0 +1,61 @@
+html, body {
+  margin: 0;
+  font-family: 'Hack';
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #f2f2f2;
+  height: 75px;
+  list-style: none;
+}
+
+#home {
+  float: left;
+  margin: 0;
+  padding: 25px 0 0 20px;
+}
+
+#link-list {
+  list-style-type: none;
+  float: right;
+  padding: 14px 16px;
+}
+
+#link-list li {
+  padding: 0 10px;
+  display: inline; 
+}
+
+#link-list a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+#link-list a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#main {
+  margin: 100px 0;
+  text-align: center;
+}
+
+#main-heading {
+  padding: 30px 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+  text-align: center;
+  z-index: 2;
+}
